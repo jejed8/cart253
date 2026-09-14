@@ -4,4 +4,5 @@
 
 This website was made to collect together and show off the prototyping work of the CART253, creative computation 1, course.
 
-[Link to journal](journal.md)
+### Useful links
+[Course Journal](journal.md)
