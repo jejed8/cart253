@@ -1,4 +1,4 @@
-# cart253 Jeremy D.
+# ⋆˙⟡ Jeremy's Creative Computation Course Website ✧˖°.
 
 ![website banner](/assets/images/website_banner.JPG)
 
