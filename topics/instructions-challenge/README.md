@@ -2,7 +2,7 @@
 
 Jeremy and Mona
 
-[View this project online](https://m4820.github.io/cart253/topics/instructions-challenge/)
+[View this project online](https://jejed8.github.io/cart253/topics/instructions-challenge/)
 
 ## Description
 
