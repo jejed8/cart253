@@ -17,10 +17,15 @@ function setup() {
 
   //color of the canvas
   background("grey");
+
+  colorMode(HSL, 360, 100, 100)
 }
 
 //sets a base value for the scale to iterate upon
 let scaleValue = 0.05;
+
+//
+let hueValue = 0;
 
 /**
  * draws the heart loop
@@ -34,7 +39,7 @@ function draw() {
   translate(-300, -300);
 
   // changes the colour of the heart
-  fill(0, 0, 200);
+  fill(hueValue, 0, 200);
 
   //removes the outline of the shape
   noStroke();
