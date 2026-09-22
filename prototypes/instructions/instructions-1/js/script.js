@@ -1,5 +1,5 @@
 /**
- * Title of Project
+ * Cherries 🍒
  * Jeremy Duverseau
  * 
  * This project draws a pair of cherries together on a 800x800px canvas
