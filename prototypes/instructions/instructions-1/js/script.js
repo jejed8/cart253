@@ -27,7 +27,25 @@ function setup() {
 // draws the cherries
 function draw() {
 
-    /*circle(400, 400, 50);
-    fill('red');
-    pop();*/
+    // left cherry
+    push();
+    //colour of the shape
+    fill("#ab0028");
+    //removes the outline
+    noStroke();
+    //draws and postions the shape
+    ellipse(340, 500, 100, 100);
+    //closes the shape
+    pop();
+
+    // right cherry
+    push();
+    //colour of the shape
+    fill("#ab0028");
+    //removes the outline
+    noStroke();
+    //draws and postions the shape
+    ellipse(460, 500, 100, 100);
+    //closes the shape
+    pop();
 }
