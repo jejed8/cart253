@@ -97,4 +97,16 @@ function draw() {
     pop();
 
 
+    // stem leaf
+    push();
+    //colour of the leaf
+    fill("#22613a");
+    //removes the outline of the leaf
+    noStroke();
+    //shape of the leaf
+    square(395, 235, 70, 100, 0, 50, 0);
+    //closes the shape
+    pop();
+
+
 }
