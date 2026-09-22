@@ -2,8 +2,7 @@
  * Title of Project
  * Jeremy Duverseau
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This project draws a pair of cherries together on a 800x800px canvas
  */
 
 "use strict";
