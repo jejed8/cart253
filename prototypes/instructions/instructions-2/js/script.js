@@ -18,13 +18,16 @@ function setup() {
   //color of the canvas
   background("grey");
 
+
+  //changes the color mode of the drawing to use hsl profile instead
   colorMode(HSL, 360, 100, 100)
+
 }
 
 //sets a base value for the scale to iterate upon
-let scaleValue = 0.05;
+let scaleValue = 3;
 
-//
+// sets the base value of the hue to 0
 let hueValue = 0;
 
 /**
@@ -39,7 +42,7 @@ function draw() {
   translate(-300, -300);
 
   // changes the colour of the heart
-  fill(hueValue, 0, 200);
+  fill(hueValue, 100, 50);
 
   //removes the outline of the shape
   noStroke();
@@ -58,8 +61,16 @@ function draw() {
   // closes the shape  
   pop();
 
-  // creates a loop that grows the scale of each heart until it reaches 3
-  if (scaleValue < 1) {
-    scaleValue += 0.05;
+  // creates a loop that decreases the scale of each heart until it reaches 0.05
+  if (scaleValue > 0.05) {
+    scaleValue -= 0.05;
+  }
+
+  //sets the hue value to make jumps of 25 every iteration
+  hueValue += 25;
+  
+  //resets the hue value to 0 when it surpasses 360
+  if (hueValue >= 360) {
+    hueValue = 0;
   }
 }
