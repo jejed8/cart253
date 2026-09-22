@@ -49,7 +49,7 @@ function draw() {
     ellipse(460, 500, 100, 100);
     //closes the shape
     pop();
-    
+
 
     //reference points for drawing the stems
     push();
@@ -70,15 +70,31 @@ function draw() {
     pop();
 
 
-
     // left cherry stem
     push();
+    //removes the inside of the shape
+    noFill();
     //colour of the stem
     stroke("#22613a");
     //thickness of the stem
-    strokeWeight(3);
-    //
+    strokeWeight(15);
+    //shape of the stem
+    bezier(340, 450, 450, 350, 400, 300, 400, 300);
+    //closes the shape
+    pop();
 
+    // right cherry stem
+    push();
+    //removes the inside of the shape
+    noFill();
+    //colour of the stem
+    stroke("#22613a");
+    //thickness of the stem
+    strokeWeight(15);
+    //shape of the stem
+    bezier(460, 450, 450, 350, 400, 300, 400, 300);
+    //closes the shape
+    pop();
 
 
 }
