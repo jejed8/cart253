@@ -1,16 +1,17 @@
 /**
- * Title of Project
- * Author Name
+ * Rainbow Hearts
+ * Jeremy Duverseau
  *
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * A nice illusion of hearts making a rainbow
+ * 
+ * thank you to my dad for helping a little with loops
  */
 
 "use strict";
 
-/**
+/*
  * Create a 600x600 pixel grey canvas
- */
+*/
 function setup() {
   //create a canvas of 500x500px
   createCanvas(600, 600);
