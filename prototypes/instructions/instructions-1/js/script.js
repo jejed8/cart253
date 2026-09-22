@@ -27,30 +27,6 @@ function setup() {
 // draws the cherries
 function draw() {
 
-    // left cherry
-    push();
-    //colour of the shape
-    fill("#ab0028");
-    //removes the outline
-    noStroke();
-    //draws and postions the shape
-    ellipse(340, 500, 100, 100);
-    //closes the shape
-    pop();
-
-
-    // right cherry
-    push();
-    //colour of the shape
-    fill("#ab0028");
-    //removes the outline
-    noStroke();
-    //draws and postions the shape
-    ellipse(460, 500, 100, 100);
-    //closes the shape
-    pop();
-
-
     //reference points for drawing the stems
     push();
     //colour of the points
@@ -109,4 +85,27 @@ function draw() {
     pop();
 
 
+
+    // left cherry
+    push();
+    //colour of the shape
+    fill("#ab0028");
+    //removes the outline
+    noStroke();
+    //draws and postions the shape
+    ellipse(340, 500, 100, 100);
+    //closes the shape
+    pop();
+
+
+    // right cherry
+    push();
+    //colour of the shape
+    fill("#ab0028");
+    //removes the outline
+    noStroke();
+    //draws and postions the shape
+    ellipse(460, 500, 100, 100);
+    //closes the shape
+    pop();
 }
