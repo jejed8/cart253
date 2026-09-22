@@ -9,10 +9,15 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * Create a 500x500 pixel grey canvas
 */
 function setup() {
 
+    //create a canvas of 500x500px
+    createCanvas(500, 500);
+
+    //color of the canvas
+    background('grey');
 }
 
 
