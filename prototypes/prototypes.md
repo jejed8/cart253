@@ -4,16 +4,16 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 ## Instructions
 
-### [Cherries](/prototypes/instructions/cherries/index.html)
+### [Cherries](/instructions/cherries/index.html)
 
-<img src="/prototypes/instructions/media/images/cherries.png" width="500" alt="cherries" >
-
-
-### [Floating Coin](/prototypes/instructions/floating-coin/index.html)
-
-<img src="/prototypes/instructions/media/images/floating-coin.png" width="500" alt="floating-coin" >
+<img src="/instructions/media/images/cherries.png" width="500" alt="cherries" >
 
 
-### [Rainbow Hearts](/prototypes/instructions/rainbow-hearts/index.html)
+### [Floating Coin](instructions/floating-coin/index.html)
 
-<img src="/prototypes/instructions/media/images/rainbow-heart.png" width="500" alt="rainbow-hearts" >
+<img src="/instructions/media/images/floating-coin.png" width="500" alt="floating-coin" >
+
+
+### [Rainbow Hearts](/instructions/rainbow-hearts/index.html)
+
+<img src="/instructions/media/images/rainbow-heart.png" width="500" alt="rainbow-hearts" >
