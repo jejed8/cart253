@@ -4,12 +4,12 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 ## Instructions
 
-### [Cherries](/prototypes/instructions/cherries/index.html)
+### [Cherries](https://jejed8.github.io/cart253/prototypes/instructions/cherries/)
 
 <img src="/prototypes/instructions/media/images/cherries.png" width="500" alt="cherries" >
 
 
-### [Floating Coin](/prototypes/instructions/floating-coin/index.html)
+### [Floating Coin](/prototypes/instructions/floating-coin/)
 
 <img src="/prototypes/instructions/media/images/floating-coin.png" width="500" alt="floating-coin" >
 
