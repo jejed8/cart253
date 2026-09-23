@@ -66,4 +66,19 @@ function draw() {
 
   //close shape
   pop();
+
+
+  // coin shadow
+  push();
+
+  // set colour of the shadow
+  fill('#6261611c');
+
+  noStroke();
+
+  //set shape and postion of the shadow
+  ellipse(250, 400, 180, 25);
+  
+  pop();
+
 }
