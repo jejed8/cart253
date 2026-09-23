@@ -9,29 +9,25 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
-
+ * Set the canva size and colour
+ */
 
 function setup() {
   // Create a 500x500px canvas
   createCanvas(500, 500);
 
   //changes the colour of the canvas
-  background(0, 0, 0);
+  background('#a7cfdb');
 }
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
-
+ * Draw a Coin
+ */
 
 function draw() {
-  //Coin
-  push();
 
-  //draw and position the coin
-  circle(250, 250, 200);
+  // Coin
+  push();
 
   //set the colour of the coin
   fill("#FAB805");
@@ -41,5 +37,33 @@ function draw() {
 
   //set the thickness of the outline
   strokeWeight(15);
-  //pop();
+
+  //draw and position the coin
+  circle(250, 250, 200);
+
+  //close shape
+  pop();
+
+
+
+  // coin text
+  push();
+
+  //set text font
+  textFont('Comic Sans Ms')
+
+  //set text size
+  textSize(100);
+
+  //allign text
+  textAlign('center', 'center');
+
+  //set text colour
+  fill("#E09D0D");
+
+  //set text and position
+  text("$", 253, 242);
+
+  //close shape
+  pop();
 }
