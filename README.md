@@ -6,3 +6,4 @@ This website was made to collect together and show off the prototyping work of t
 
 ### Useful links
 - [Course Journal](journal.md)
+- [Prototypes](/prototypes/prototypes.md)
