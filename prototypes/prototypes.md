@@ -6,6 +6,8 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 ### [Cherries](/prototypes/instructions/cherries)
 
+> This project draws a pair of cherries together on a 800x800px canvas
+
 [Website version](https://jejed8.github.io/cart253/prototypes/instructions/cherries/)
 
 <img src="./prototypes/instructions/media/images/cherries.png" width="500" alt="cherries" >
@@ -13,12 +15,16 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 ### [Floating Coin](/prototypes/instructions/floating-coin/)
 
+> A digital drawing of a floating coin
+
 [Website version](https://jejed8.github.io/cart253/prototypes/instructions/floating-coin/)
 
 <img src="./prototypes/instructions/media/images/floating-coin.png" width="500" alt="floating-coin" >
 
 
 ### [Rainbow Hearts](/prototypes/instructions/rainbow-hearts)
+
+> A nice illusion of hearts making a rainbow
 
 [Website version](https://jejed8.github.io/cart253/prototypes/instructions/rainbow-hearts/)
 
