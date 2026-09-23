@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Floating Coin
+ * Jeremy Duverseau
  *
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * A digital drawing of a floating coin
  */
 
 "use strict";
@@ -21,7 +20,7 @@ function setup() {
 }
 
 /**
- * Draw a Coin
+ * Draw a floating coin
  */
 
 function draw() {
