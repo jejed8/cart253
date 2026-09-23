@@ -7,3 +7,8 @@ This is not my first time working with markdown but I do like it a lot. It's as 
 Also, here's a picture of my dog
 
 ![dog](/assets/images/journal-1.JPG)
+
+
+## September 22, 2026
+
+This was a fun project, where we had to create 3 small prototypes using p5.js and got to explore different ways of coming up with something. I had the most fun with my Rainbow Hearts prototype where I got to do something fun using loops even tho it was a bit of a challenge at first. It has been a while since I coded a loop using java script and I had forgotten a little. But thankfully, my father helped me remind myself of the logic of a loop and it was pretty easy from this point onward.
