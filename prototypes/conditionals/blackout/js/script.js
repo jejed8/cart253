@@ -2,6 +2,7 @@
  * Blackout
  * Jeremy Duverseau
  *
+ * Find the hidden circle in the canvas, once found it reveals itself
  */
 
 const hiddenCircle = {
