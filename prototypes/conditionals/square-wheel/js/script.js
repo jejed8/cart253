@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Square Wheel
+ * Jeremy Duverseau
  *
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Make the square wheel turn either left or right by pointing on both side of the screen.
  */
 
 "use strict";
@@ -11,14 +10,16 @@
 let angle = 0;
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
- */
+ * Create the canvas
+*/
 function setup() {
   createCanvas(500, 500);
 }
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * Check if the mouse is on the left or right side of the screen
+ * Change the direction of the angle
+ * draw the square wheel
  */
 function draw() {
   background("#6b93b6");
