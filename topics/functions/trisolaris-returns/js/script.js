@@ -39,7 +39,7 @@ function drawSun(x, y, size) {
     //let weight = map(d, 0, width, minWeight, maxWeight);
 
 
-    let weight = calculateStrokeweight(x, y);
+    let weight = calculateStrokeweight(x, y)
 
     push();
     strokeWeight(weight);
