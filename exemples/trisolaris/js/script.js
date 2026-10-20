@@ -21,9 +21,17 @@ function draw() {
     // Sky blue
     background("#87ceeb");
 
-    drawSun1();
-    drawSun2();
-    drawSun3();
+    drawSun(500, 100, 80);
+    drawSun(350, 180, 200);
+    drawSun(120, 100, 160);
+}
+
+function drawSun(x, y, size) {
+    push();
+    noStroke();
+    fill("#f99736");
+    ellipse(x, y, size);
+    pop();
 }
 
 /**
