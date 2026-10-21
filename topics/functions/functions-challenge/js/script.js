@@ -1,7 +1,7 @@
 /**
  * Functions Challenge
  * Jeremy Duverseau
- * 
+ *
  * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
  * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
  */
@@ -10,52 +10,51 @@
 
 // Our ball
 const ball = {
-    x: 300,
-    y: 20,
-    width: 10,
-    height: 10,
-    velocity: {
-        x: 0,
-        y: 10
-    }
+  x: 300,
+  y: 20,
+  width: 10,
+  height: 10,
+  velocity: {
+    x: 0,
+    y: 0,
+  },
 };
 
 // Our paddle
 const paddle = {
-    x: 300,
-    y: 280,
-    width: 80,
-    height: 10
+  x: undefined,
+  y: 280,
+  width: 80,
+  height: 10,
 };
 
 /**
  * Create the canvas
-*/
+ */
 function setup() {
-    createCanvas(600, 300);
+  createCanvas(600, 300);
 }
-
 
 /**
  * Move and display the ball and paddle
-*/
+ */
 function draw() {
-    background("#87ceeb");
+  background("#87ceeb");
 
-    movePaddle(paddle);
-    moveBall(ball);
+  movePaddle(paddle);
+  moveBall(ball);
 
-    handleBounce(ball, paddle);
+  handleBounce(ball, paddle);
 
-    drawPaddle(paddle);
-    drawBall(ball);
+  drawPaddle(paddle);
+  drawBall(ball);
 }
 
 /**
  * Moves the paddle
  */
 function movePaddle(paddle) {
-
+  paddle.x = mouseX;
 }
 
 /**
@@ -68,32 +67,30 @@ function moveBall(ball) {
 /**
  * Bounces the provided ball off the provided paddle
  */
-function handleBounce(ball, paddle) {
-
-}
+function handleBounce(ball, paddle) {}
 
 /**
  * Draws the specified paddle on the canvas
  */
 function drawPaddle(paddle) {
-    push();
-    rectMode(CENTER);
-    noStroke();
-    fill("pink");
-    rect(paddle.x, paddle.y, paddle.width, paddle.height);
-    pop();
+  push();
+  rectMode(CENTER);
+  noStroke();
+  fill("pink");
+  rect(paddle.x, paddle.y, paddle.width, paddle.height);
+  pop();
 }
 
 /**
  * Draws the specified ball on the canvas
  */
 function drawBall(ball) {
-    push();
-    rectMode(CENTER);
-    noStroke();
-    fill("pink");
-    rect(ball.x, ball.y, ball.width, ball.height);
-    pop();
+  push();
+  rectMode(CENTER);
+  noStroke();
+  fill("pink");
+  rect(ball.x, ball.y, ball.width, ball.height);
+  pop();
 }
 
 /**
@@ -103,8 +100,10 @@ function drawBall(ball) {
  * x,y coordinates.
  */
 function checkOverlap(rectA, rectB) {
-  return (rectA.x + rectA.width/2 > rectB.x - rectB.width/2 &&
-          rectA.x - rectA.width/2 < rectB.x + rectB.width/2 &&
-          rectA.y + rectA.height/2 > rectB.y - rectB.height/2 &&
-          rectA.y - rectA.height/2 < rectB.y + rectB.height/2);
+  return (
+    rectA.x + rectA.width / 2 > rectB.x - rectB.width / 2 &&
+    rectA.x - rectA.width / 2 < rectB.x + rectB.width / 2 &&
+    rectA.y + rectA.height / 2 > rectB.y - rectB.height / 2 &&
+    rectA.y - rectA.height / 2 < rectB.y + rectB.height / 2
+  );
 }
