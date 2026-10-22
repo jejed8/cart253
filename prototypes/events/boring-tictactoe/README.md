@@ -2,7 +2,7 @@
 
 Jeremy Duverseau
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+[View this project online](https://jejed8.github.io/cart253/prototypes/events/boring-tictactoe/)
 
 ## Description
 
