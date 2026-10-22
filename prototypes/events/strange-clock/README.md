@@ -1,4 +1,4 @@
-# TITLE OF PROJECT
+# Strange Clock
 
 Jeremy Duverseau
 
