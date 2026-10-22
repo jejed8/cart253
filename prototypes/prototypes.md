@@ -38,7 +38,7 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 [View online](https://jejed8.github.io/cart253/prototypes/conditionals/blackout/) | [View code](https://jejed8.github.io/cart253/prototypes/conditionals/blackout/js/script.js)
 
-<img src="" height="300" alt="Blackout" >
+<img src="https://github.com/jejed8/cart253/blob/main/prototypes/conditionals/blackout/assets/blackout.jpeg?raw=true" height="300" alt="Blackout" >
 
 
 ### [Square Wheel](https://github.com/jejed8/cart253/tree/main/prototypes/conditionals/square-wheel)
@@ -47,7 +47,7 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 [View online](https://jejed8.github.io/cart253/prototypes/conditionals/square-wheel/) | [View code](https://jejed8.github.io/cart253/prototypes/conditionals/square-wheel/js/script.js)
 
-<img src="" height="300" alt="Square Wheel" >
+<img src="https://github.com/jejed8/cart253/blob/main/prototypes/conditionals/square-wheel/assets/images/square-wheel.png?raw=true" height="300" alt="Square Wheel" >
 
 
 ## Events Prototypes
@@ -60,7 +60,7 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 [View online](https://jejed8.github.io/cart253/prototypes/events/boring-tictactoe/) | [View code](https://jejed8.github.io/cart253/prototypes/events/boring-tictactoe/js/script.js)
 
-<img src="" height="300" alt="boring Tic Tac Toe" >
+<img src="https://github.com/jejed8/cart253/blob/main/prototypes/events/boring-tictactoe/assets/images/boring-ttt.png?raw=true" height="300" alt="boring Tic Tac Toe" >
 
 
 ### [Strange Clock](https://github.com/jejed8/cart253/tree/main/prototypes/events/strange-clock)
@@ -71,4 +71,4 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 [View online](https://jejed8.github.io/cart253/prototypes/events/strange-clock/) | [View code](https://jejed8.github.io/cart253/prototypes/events/strange-clock/js/script.js)
 
-<img src="" height="300" alt="strange clock" >
+<img src="https://github.com/jejed8/cart253/blob/main/prototypes/events/strange-clock/assets/images/strange-clock.png?raw=true" height="300" alt="strange clock" >
