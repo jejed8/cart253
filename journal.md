@@ -12,3 +12,7 @@ Also, here's a picture of my dog
 ## September 22, 2026
 
 This was a fun project, where we had to create 3 small prototypes using p5.js and got to explore different ways of coming up with something. I had the most fun with my Rainbow Hearts prototype where I got to do something fun using loops even tho it was a bit of a challenge at first. It has been a while since I coded a loop using java script and I had forgotten a little. But thankfully, my father helped me remind myself of the logic of a loop and it was pretty easy from this point onward.
+
+## October 21, 2026
+
+One month later, since my last entry... yikes. Ever since I got sick a few weeks ago, my work/life/school balance has been pretty bad. It's pretty noticeable just by looking at the current state of my organization. But, in more positive news, I'm starting to find my flow back ...finally. Anyway, I had fun doing these prototypes and I noticed that I'm kind of relearning javascript throughout these little exercises. It's a fun way to contextualize code instead of just doing boring functions and making boring forms over and over again like I used to do.
