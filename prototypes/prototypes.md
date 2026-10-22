@@ -53,3 +53,11 @@ This page is ment to showcase different prototypes made for the Creative Computa
 > - Press the "o" key on your keyboard to place a circle where your mouse is.
 
 [View online](https://jejed8.github.io/cart253/prototypes/events/boring-tictactoe/) | [View code](https://jejed8.github.io/cart253/prototypes/events/boring-tictactoe/js/script.js)
+
+### [Strange Clock](https://github.com/jejed8/cart253/tree/main/prototypes/events/strange-clock)
+
+> "What a strange way to watch the time pass by..."
+>
+> Five squares pulse in different colors at different time intervals, creating a visual representation of time passing.
+
+[View online](https://jejed8.github.io/cart253/prototypes/events/strange-clock/) | [View code](https://jejed8.github.io/cart253/prototypes/events/strange-clock/js/script.js)
