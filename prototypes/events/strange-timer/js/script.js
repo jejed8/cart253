@@ -8,13 +8,23 @@
 
 "use strict";
 
+let oneSec = {
+    color: {
+        off: "white",
+        on: "lime"
+    },
+    currentColor: "white",
+    x: 100,
+    delay: 1000
+};
+
 let fiveSec = {
     color: {
         off: "white",
         on: "yellow"
     },
     currentColor: "white",
-    x: 100,
+    x: 300,
     delay: 5000
 };
 
@@ -24,7 +34,7 @@ let tenSec = {
         on: "pink"
     },
         currentColor: "white",
-    x: 300,
+    x: 500,
     delay: 10000
 }
 
@@ -34,7 +44,7 @@ let thirthySec = {
         on: "cyan"
     },
         currentColor: "white",
-    x: 500,
+    x: 700,
     delay: 30000
 }
 
@@ -44,7 +54,7 @@ let sixtySec = {
         on: "purple"
     },
         currentColor: "white",
-    x: 700,
+    x: 900,
     delay: 60000
 }
 
@@ -52,9 +62,10 @@ let sixtySec = {
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 function setup() {
-    createCanvas(800, 600);
+    createCanvas(1000, 600);
     background('lightgrey');
 
+    setInterval(pulseOneLight, oneSec.delay);
     setInterval(pulseFiveLight, fiveSec.delay);
     setInterval(pulseTenLight, tenSec.delay);
     setInterval(pulseThirthyLight, thirthySec.delay);
@@ -67,12 +78,21 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
+    drawSquare(oneSec);
     drawSquare(fiveSec);
     drawSquare(tenSec);
     drawSquare(thirthySec);
     drawSquare(sixtySec);
 }
 
+
+function pulseOneLight() {
+    oneSec.currentColor = oneSec.color.on;
+
+    setTimeout(function() {
+        oneSec.currentColor = oneSec.color.off;
+    }, 300);
+}
 
 function pulseFiveLight() {
     fiveSec.currentColor = fiveSec.color.on;
