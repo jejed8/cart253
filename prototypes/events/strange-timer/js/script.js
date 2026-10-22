@@ -8,11 +8,32 @@
 
 "use strict";
 
+let fiveSec = {
+    color: "white",
+    x: 100
+}
+
+let tenSec = {
+    color: "white",
+    x: 300
+}
+
+let thirthySec = {
+    color: "white",
+    x: 500
+}
+
+let sixtySec = {
+    color: "white",
+    x: 700
+}
+
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 function setup() {
-
+    createCanvas(800, 600);
+    background('lightgrey');
 }
 
 
@@ -20,5 +41,17 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
+    drawSquare(fiveSec);
+    drawSquare(tenSec);
+    drawSquare(thirthySec);
+    drawSquare(sixtySec);
+}
 
+function drawSquare(square) {
+    push();
+    rectMode(CENTER);
+    noStroke();
+    fill(square.color);
+    rect(square.x, 300, 100);
+    pop();
 }
