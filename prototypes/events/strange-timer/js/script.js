@@ -9,23 +9,39 @@
 "use strict";
 
 let fiveSec = {
-    color: "white",
-    x: 100
+    color: {
+        off: "white",
+        on: "yellow"
+    },
+    x: 100,
+    delay: 5000
 }
 
 let tenSec = {
-    color: "white",
-    x: 300
+    color: {
+        off: "white",
+        on: "pink"
+    },
+    x: 300,
+    delay: 10000
 }
 
 let thirthySec = {
-    color: "white",
-    x: 500
+    color: {
+        off: "white",
+        on: "cyan"
+    },
+    x: 500,
+    delay: 30000
 }
 
 let sixtySec = {
-    color: "white",
-    x: 700
+    color: {
+        off: "white",
+        on: "purple"
+    },
+    x: 700,
+    delay: 60000
 }
 
 /**
@@ -34,6 +50,8 @@ let sixtySec = {
 function setup() {
     createCanvas(800, 600);
     background('lightgrey');
+
+    setInterval(pulseFiveLight, fiveSec.delay);
 }
 
 
@@ -51,7 +69,11 @@ function drawSquare(square) {
     push();
     rectMode(CENTER);
     noStroke();
-    fill(square.color);
+    fill(square.color.off);
     rect(square.x, 300, 100);
     pop();
+}
+
+function pulseFiveLight() {
+
 }
