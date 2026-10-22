@@ -15,6 +15,7 @@ function setup() {
   createCanvas(600, 600);
   background("lightgrey");
 }
+
 function drawLine(x1, y1, x2, y2) {
     push();
     stroke('black');
@@ -28,8 +29,17 @@ function drawSquare(x, y) {
   rectMode(CENTER);
   noStroke();
   fill("red");
-  square(x, y, 100);
+  square(x, y, 125);
   pop();
+}
+
+function drawCircle(x, y) {
+    push();
+    stroke('blue')
+    strokeWeight(5);
+    noFill();
+    circle(x, y, 125);
+    pop();
 }
 
 
@@ -46,6 +56,8 @@ function draw() {
 function keyPressed(event) {
   if (event.key === "x") {
     drawSquare(mouseX, mouseY);
-    console.log();
+    //console.log();
+  } else if (event.key === "o") {
+    drawCircle(mouseX, mouseY);
   }
 }
