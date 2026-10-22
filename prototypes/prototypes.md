@@ -52,6 +52,8 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 ## Events Prototypes
 
+[Link to journal entry](journal.md)
+
 ### [Boring Tic Tac Toe](https://github.com/jejed8/cart253/tree/main/prototypes/events/boring-tictactoe)
 
 > Play a very bare bones tic tac toe where the X is replaced by a square.
