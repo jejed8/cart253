@@ -1,12 +1,17 @@
 /**
- * Title of Project
- * Author Name
+ * Strange Clock
+ * Jeremy Duverseau
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * "What a strange way to watch the time pass by..."
+ * 
+ * Five squares pulse in different colors at different time intervals,
+ * creating a visual representation of time passing.
+ * 
  */
 
 "use strict";
+
+// Stores the properties of each light (colors, x position and delay)
 
 let oneSec = {
     color: {
@@ -59,7 +64,7 @@ let sixtySec = {
 }
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+* Creates the canvas and starts a timer for each light
 */
 function setup() {
     createCanvas(1000, 600);
@@ -75,7 +80,8 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+* Draws all five squares on the canvas
+* Their current colors determine whether they appear lit or unlit
 */
 function draw() {
     drawSquare(oneSec);
@@ -86,6 +92,8 @@ function draw() {
 }
 
 
+// Turns the one-second light on, then turns it off after 300 milliseconds
+
 function pulseOneLight() {
     oneSec.currentColor = oneSec.color.on;
 
@@ -93,6 +101,8 @@ function pulseOneLight() {
         oneSec.currentColor = oneSec.color.off;
     }, 300);
 }
+
+// Turns the five-second light on, then turns it off after 300 milliseconds
 
 function pulseFiveLight() {
     fiveSec.currentColor = fiveSec.color.on;
@@ -102,6 +112,8 @@ function pulseFiveLight() {
     }, 300);
 }
 
+// Turns the ten-second light on, then turns it off after 300 milliseconds
+
 function pulseTenLight() {
     tenSec.currentColor = tenSec.color.on;
 
@@ -109,6 +121,8 @@ function pulseTenLight() {
         tenSec.currentColor = tenSec.color.off;
     }, 300);
 }
+
+// Turns the thirty-second light on, then turns it off after 300 milliseconds
 
 function pulseThirthyLight() {
     thirthySec.currentColor = thirthySec.color.on;
@@ -118,6 +132,8 @@ function pulseThirthyLight() {
     }, 300);
 }
 
+// Turns the sixty-second light on, then turns it off after 300 milliseconds
+
 function pulseSixtyLight() {
     sixtySec.currentColor = sixtySec.color.on;
 
@@ -125,6 +141,8 @@ function pulseSixtyLight() {
         sixtySec.currentColor = sixtySec.color.off;
     }, 300);
 }
+
+// Draws a square using the properties of the light passed as an argument
 
 function drawSquare(square) {
     push();
