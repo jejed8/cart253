@@ -1,5 +1,5 @@
 /**
- * basic tic tac toe
+ * boring tic tac toe
  * Jeremy Duverseau
  *
  * Play Tic Tac Toe!!!

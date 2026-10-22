@@ -32,12 +32,24 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 ## Conditionals Prototypes
 
+### [Blackout](https://github.com/jejed8/cart253/tree/main/prototypes/conditionals/blackout)
+
+> Find the hidden circle in the canvas, once found it reveals itself.
+
+[View online](https://jejed8.github.io/cart253/prototypes/conditionals/blackout/) | [View code](https://jejed8.github.io/cart253/prototypes/conditionals/blackout/js/script.js)
+
+### [Square Wheel](https://github.com/jejed8/cart253/tree/main/prototypes/conditionals/square-wheel)
+
+> Make the wheel rotate left or right depending on where you position your mouse on the screen
+
+[View online](https://jejed8.github.io/cart253/prototypes/conditionals/square-wheel/) | [View code](https://jejed8.github.io/cart253/prototypes/conditionals/square-wheel/js/script.js)
+
 ## Events Prototypes
 
 ### [Boring Tic Tac Toe](https://github.com/jejed8/cart253/tree/main/prototypes/events/boring-tictactoe)
 
 > Play a very bare bones tic tac toe where the X is replaced by a square.
->- Press the "x" key on your keyboard to place a square where your mouse is.
->- Press the "o" key on your keyboard to place a circle where your mouse is.
+> - Press the "x" key on your keyboard to place a square where your mouse is.
+> - Press the "o" key on your keyboard to place a circle where your mouse is.
 
 [View online](https://jejed8.github.io/cart253/prototypes/events/boring-tictactoe/) | [View code](https://jejed8.github.io/cart253/prototypes/events/boring-tictactoe/js/script.js)
