@@ -15,13 +15,15 @@ let male = [
     {x: 0, y: 100, color: undefined},
     {x: 0, y: 300, color: undefined},
     {x: 0, y: 500, color: undefined}
-]
+];
 
 let female = [
     {x: 600, y: 100, color: undefined},
     {x: 600, y: 300, color: undefined},
     {x: 600, y: 500, color: undefined}
-]
+];
+
+let colors = ["yellow", "purple", "green"];
 
 
 
