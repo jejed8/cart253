@@ -30,10 +30,18 @@ let colors = ["yellow", "purple", "green"];
 function setup() {
     createCanvas(600, 600);
 
-    // assign a random color to each square
+    // give each side its own randomly ordered set of colors
+    let maleColors = shuffle([...colors]);
+    let femaleColors = shuffle([...colors]);
+
+    // assign one unique color to each male square
     for (let i = 0; i < male.length; i++) {
-        male[i].color = random(colors);
-        female[i].color = random(colors);
+        male[i].color = maleColors[i];
+    }
+
+    // assign one unique color to each female square
+    for (let i = 0; i < female.length; i++) {
+        female[i].color = femaleColors[i];
     }
 
 }
@@ -43,6 +51,9 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
+
+    push()
+    noStroke();
 
     // draw the male squares
     for (let i = 0; i < male.length; i++) {
@@ -55,5 +66,7 @@ function draw() {
         fill(female[i].color);
         rect(female[i].x, female[i].y, 50, 50);
     }
+
+    pop()
 
 }
