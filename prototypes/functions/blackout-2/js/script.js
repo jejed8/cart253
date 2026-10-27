@@ -2,8 +2,7 @@
  * blackout 2
  * Jeremy Duverseau
  *
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Find the hidden circle in this dark empty place and click it when found! ...then find it again!
 */
 
 "use strict";
