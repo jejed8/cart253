@@ -22,12 +22,12 @@ function setup() {
 /**
  * Creates a random ball
  */
-function createBall() {
+function createBall(x, y) {
   // Create a ball object with appropriate properties
   const newBall = {
     // Position and dimensions
-    x: 200,
-    y: 200,
+    x: x,
+    y: y,
     size: 20,
     // Colour
     fill: "#000000",
@@ -96,6 +96,6 @@ function drawBall(ball) {
 }
 
 function mousePressed() {
-    let ball = createBall();
+    let ball = createBall(mouseX, mouseY);
     balls.push(ball);
 }
