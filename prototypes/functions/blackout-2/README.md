@@ -2,7 +2,7 @@
 
 Jeremy Duverseau
 
-[View this project online](https://jejed8.github.io/cart253/prototypes/functions/blackout-2/)
+[View this project online](https://jejed8.github.io/cart253/prototypes/functions/blackout/)
 
 ## Description
 
