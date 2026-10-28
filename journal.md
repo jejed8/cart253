@@ -16,3 +16,8 @@ This was a fun project, where we had to create 3 small prototypes using p5.js an
 ## October 21, 2026
 
 It's been one month since my last entry... yikes. Ever since I got sick a few weeks ago, my work/life/school balance has been pretty bad. It's pretty noticeable just by looking at the current state of my organization. But, in more positive news, I'm starting to find my flow back ...finally. Anyway, I had fun doing these prototypes and I noticed that I'm kind of relearning javascript throughout these little exercises. It's a fun way to contextualize code instead of just doing boring functions and making boring forms over and over again like I used to do.
+
+
+## October 27, 2026
+
+Almost Halloween! Not sure if my plans are still holding up this year but my friend wanted to do a matching costume; Sharkboy and Lavagirl. I guess we will see! I've noticed I've been ahead of the learning materials with one of my prototypes, haha. To fix-wiring, I'm using loops and arrays. Well, technically, I did watch the arrays learning material while I was working on this one. I was originally planning to make a third prototype for arrays, but my idea seemed a little complicated and I was running out of time. It was supposed to be a mini game with a flower and a randomly generated number of petals. The user could click on the petals to make them fall. The concept was to recreate "He loves me, he loves me not." Well, maybe I can re-purpose this idea in the coming weeks!

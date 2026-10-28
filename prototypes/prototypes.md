@@ -78,7 +78,7 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 ## Functions Prototypes
 
-### [Link to journal entry](../journal.md#)
+### [Link to journal entry](../journal.md#october-27-2026)
 
 ## [Blackout II](https://github.com/jejed8/cart253/tree/main/prototypes/functions/blackout-2)
 
@@ -87,7 +87,7 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 [View online](https://jejed8.github.io/cart253/prototypes/functions/blackout-2/) | [View code](https://jejed8.github.io/cart253/prototypes/functions/blackout-2/js/script.js)
 
-<img src="" height="300" alt="Blackout II" >
+<img src="https://github.com/jejed8/cart253/blob/e259f9d21d05dd196592612f59b90b1ebb40382e/prototypes/functions/blackout-2/assets/images/blackout2.png" height="300" alt="Blackout II" >
 
 
 ## [Fix The Wiring](https://github.com/jejed8/cart253/tree/main/prototypes/functions/fix-wiring)
@@ -97,4 +97,4 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 [View online](https://jejed8.github.io/cart253/prototypes/functions/fix-wiring/) | [View code](https://jejed8.github.io/cart253/prototypes/functions/fix-wiring/js/script.js)
 
-<img src="" height="300" alt="Fix the wiring" >
+<img src="https://github.com/jejed8/cart253/blob/e259f9d21d05dd196592612f59b90b1ebb40382e/prototypes/functions/fix-wiring/assets/images/fix-wiring.png" height="300" alt="Fix the wiring" >
