@@ -74,3 +74,27 @@ This page is ment to showcase different prototypes made for the Creative Computa
 [View online](https://jejed8.github.io/cart253/prototypes/events/strange-clock/) | [View code](https://jejed8.github.io/cart253/prototypes/events/strange-clock/js/script.js)
 
 <img src="https://github.com/jejed8/cart253/blob/main/prototypes/events/strange-clock/assets/images/strange-clock.png?raw=true" height="300" alt="strange clock" >
+
+
+## Functions Prototypes
+
+### [Link to journal entry](../journal.md#)
+
+## [Blackout II](https://github.com/jejed8/cart253/tree/main/prototypes/functions/blackout-2)
+
+> Find the hidden circle in this dark empty place and click it when found! ...then find it again!
+> This is an uppdated version of [Blackout](###blackout)
+
+[View online](https://jejed8.github.io/cart253/prototypes/functions/blackout-2/) | [View code](https://jejed8.github.io/cart253/prototypes/functions/blackout-2/js/script.js)
+
+<img src="" height="300" alt="Blackout II" >
+
+
+## [Fix The Wiring](https://github.com/jejed8/cart253/tree/main/prototypes/functions/fix-wiring)
+
+> In this prototype you need to fix the wires after, someone accidentally cut them all of.
+> Click on a square on the left then click on the matching one on the right!
+
+[View online](https://jejed8.github.io/cart253/prototypes/functions/fix-wiring/) | [View code](https://jejed8.github.io/cart253/prototypes/functions/fix-wiring/js/script.js)
+
+<img src="" height="300" alt="Fix the wiring" >

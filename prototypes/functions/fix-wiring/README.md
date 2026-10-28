@@ -11,8 +11,6 @@ Click on a square on the left then click on the matching one on the right!
 
 ## Attribution
 
-This bit should attribute any code, assets or other elements used taken from other sources. For example:
-
 > - This project uses [p5.js](https://p5js.org).
 > - Thank you to my friend gab for helping me with som of the logic behind this
 
