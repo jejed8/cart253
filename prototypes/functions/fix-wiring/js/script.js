@@ -1,34 +1,44 @@
 /**
- * Title of Project
- * Author Name
+ * Fix the wiring
+ *  Jeremy Duverseay
  *
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * A color-matching game where the player connects
+ * male and female squares of the same color.
+ * Each side has one square of each color, arranged randomly.
  */
 
 "use strict";
 
+// stores the currently selected male square and its matching female square
 let selectedMale = null;
 let connectedFemale = null;
 
+
+// stores the positions and colors of the male squares in array
 let male = [
   { x: 0, y: 100, color: undefined },
   { x: 0, y: 300, color: undefined },
   { x: 0, y: 500, color: undefined },
 ];
 
+// stores the positions and colors of the female squares in array
 let female = [
   { x: 550, y: 100, color: undefined },
   { x: 550, y: 300, color: undefined },
   { x: 550, y: 500, color: undefined },
 ];
 
+// The three possible colors for the squares
 let colors = ["yellow", "purple", "green"];
 
+/**
+ * Creates the canvas and randomly assigns colors to the squares.
+ * Each side receives all three colors in a random order.
+*/
 function setup() {
   createCanvas(600, 600);
 
-  // give each side its own randomly ordered set of colors
+ // Shuffle copies of the color array to give each side a random order
   let maleColors = shuffle([...colors]);
   let femaleColors = shuffle([...colors]);
 
@@ -44,8 +54,9 @@ function setup() {
 }
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
- */
+ * Draws both sets of squares and the completed connection, if any.
+*/
+
 function draw() {
   push();
   noStroke();
@@ -70,6 +81,7 @@ function draw() {
   if (selectedMale !== null && connectedFemale !== null) {
     stroke(selectedMale.color);
 
+    // connect the centers of the two squares
     line(
       selectedMale.x + 25,
       selectedMale.y + 25,
@@ -79,7 +91,7 @@ function draw() {
   }
   pop();
 }
-
+// checks which square is clicked and connects matching colors if not, it does not connect
 function mousePressed() {
   // check if a male square was clicked
   for (let i = 0; i < male.length; i++) {
@@ -103,10 +115,12 @@ function mousePressed() {
       mouseY >= female[i].y &&
       mouseY <= female[i].y + 50
     ) {
+        // only compare colors if a male square has already been selected
       if (selectedMale !== null) {
         if (selectedMale.color === female[i].color) {
           connectedFemale = female[i];
         } else {
+            // clear the selection and connection if the colors differ
           selectedMale = null;
           connectedFemale = null;
         }
