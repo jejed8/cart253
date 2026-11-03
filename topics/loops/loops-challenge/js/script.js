@@ -1,6 +1,6 @@
 /**
- * Lines
- * Pippin Barr
+ * loop challenge
+ * jeremy duverseau
  * 
  * A series of lines across the canvas
  */
