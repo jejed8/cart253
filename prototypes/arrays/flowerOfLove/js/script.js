@@ -2,19 +2,25 @@
  * Flower Of Love
  * Jeremy Duverseau
  *
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * 
+ * let the fate of your love for someone be determined by a flower
 */
 
 "use strict";
 
 let petals = [];
 
+let loveState;
+let loveMessage = "";
+let messageColor = "black";
+
 
 // create the canvas and generate the petals
 
 function setup() {
   createCanvas(800, 800);
+
+  loveState = random([true, false]);
 
   // generate a random number of petals
   let petalCount = floor(random(8, 25));
@@ -57,7 +63,7 @@ function drawPetal(x, y, size, color) {
   pop();
 }
 
-// draw the flower using the generated petals
+// draw the flower with the petals and pistil
 
 function drawFlower(x, y) {
 
@@ -68,19 +74,19 @@ function drawFlower(x, y) {
 
         if (petal.falling) {
 
-            // Increase falling speed (gravity)
+            // increase falling speed (gravity)
             petal.speed += 0.15;
 
-            // Move the petal downward
+            // move the petal downward
             petal.y += petal.speed;
 
-            // Position the falling petal
+            // position the falling petal
             translate(petal.x, petal.y);
             rotate(petal.angle);
 
         } else {
 
-            // Keep the petal attached to the flower
+            // keep the petal attached to the flower
             translate(x, y);
             rotate(petal.angle);
             translate(0, -petal.distance);
@@ -100,6 +106,15 @@ function draw() {
   background("lightblue");
 
   drawFlower(width / 2, height / 2);
+
+    // Display the love message
+    push();
+    textAlign(CENTER);
+    textSize(32);
+    fill(messageColor);
+    noStroke();
+    text(loveMessage, width / 2, 700);
+    pop();
 }
 
 
@@ -139,6 +154,18 @@ function mousePressed() {
       petal.x = petalX;
       petal.y = petalY;
       petal.speed = 0;
+
+        //determine the love message
+        if (loveState) {
+            loveMessage = "They love me...";
+            messageColor = 'green';
+        } else {
+            loveMessage = "They love me not...";
+            messageColor = 'red';
+        }
+
+        //reverse love state for next hit
+        loveState = !loveState;
 
       break;
     }
