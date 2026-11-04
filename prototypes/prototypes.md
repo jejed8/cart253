@@ -110,6 +110,9 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 [View online](https://jejed8.github.io/cart253/prototypes/arrays/flowerOfLove/) | [View code](https://jejed8.github.io/cart253/prototypes/arrays/flowerOfLove/js/script.js)
 
+<img src="https://github.com/jejed8/cart253/blob/main/prototypes/arrays/assets/images/flowerOfLove.png?raw=true" height="300" alt="Flower Of Love" >
+
+
 
 ## [Rainy Day](https://github.com/jejed8/cart253/tree/main/prototypes/arrays/rainyDay)
 
@@ -117,9 +120,14 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 [View online](https://jejed8.github.io/cart253/prototypes/arrays/rainDay/) | [View code](https://jejed8.github.io/cart253/prototypes/arrays/rainyDay/js/script.js)
 
+<img src="https://github.com/jejed8/cart253/blob/main/prototypes/arrays/assets/images/rainyDay.png?raw=true" height="300" alt="Rainy Day" >
+
+
 
 ## [Fix The Wiring II](https://github.com/jejed8/cart253/tree/main/prototypes/arrays/fix-wiring-2)
 
 > A color-matching game where the player connects color matching outlets on opposing sides
 
 [View online](https://jejed8.github.io/cart253/prototypes/arrays/fix-wiring-2/) | [View code](https://jejed8.github.io/cart253/prototypes/arrays/fix-wiring-2/js/script.js)
+
+<img src="https://github.com/jejed8/cart253/blob/main/prototypes/arrays/assets/images/fix-wiring-2.png?raw=true" height="300" alt="Fix the wiring II" >
