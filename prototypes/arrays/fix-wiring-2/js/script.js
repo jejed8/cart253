@@ -2,9 +2,7 @@
  * Fix the wiring
  * Jeremy Duverseau
  *
- * A color-matching game where the player connects
- * male and female outlets of the same color.
- * Each side has one outlet of each color, arranged randomly.
+ * A color-matching game where the player connects color matching outlets on opposing sides
  */
 
 "use strict";
@@ -26,6 +24,7 @@ function draw() {
   let leftCount = 0;
   let rightCount = 0;
 
+  //define the spacing between the outlets
   let spacing = height / (level + 1);
 
   //draw the outlets
@@ -46,7 +45,24 @@ function draw() {
     drawOutlet(outlet.x, outlet.y, outlet.size, outlet.color);
   }
 
-  // Draw completed connections
+  // draw a temporary line following the mouse
+  if (selectedOutlet !== null) {
+    push();
+    colorMode(HSB);
+    stroke(selectedOutlet.color, 100, 100);
+    strokeWeight(5);
+
+    line(
+      selectedOutlet.x,
+      selectedOutlet.y,
+      mouseX,
+      mouseY
+    );
+
+    pop();
+  }
+
+  // draw completed connections
   for (let i = 0; i < connections.length; i++) {
     let connection = connections[i];
 
@@ -66,6 +82,7 @@ function draw() {
   }
 }
 
+//functions that draws the outlets
 function drawOutlet(x, y, size, color) {
   push();
   colorMode(HSB);
@@ -106,31 +123,39 @@ function generateOutlets() {
 }
 
 
-// Check which outlet the player clicked
+// check which outlet the player clicked
 function mousePressed() {
   for (let i = 0; i < outlets.length; i++) {
     let outlet = outlets[i];
 
-    let distance = dist(mouseX, mouseY, outlet.x, outlet.y);
+    let distance = dist(
+      mouseX,
+      mouseY,
+      outlet.x,
+      outlet.y
+    );
 
     if (distance < outlet.size / 2) {
-      // Ignore outlets that are already connected
+
+      // ignore outlets that are already connected
       if (outlet.connected) {
+        selectedOutlet = null;
         return;
       }
 
-      // Select the first outlet
+      // select the first outlet
       if (selectedOutlet === null) {
         selectedOutlet = outlet;
       } else {
-        // Check if the two outlets match
+
+        // check if the outlets match
         if (
           selectedOutlet.color === outlet.color &&
           selectedOutlet.side !== outlet.side
         ) {
           connections.push({
             first: selectedOutlet,
-            second: outlet,
+            second: outlet
           });
 
           selectedOutlet.connected = true;
@@ -138,13 +163,15 @@ function mousePressed() {
 
           selectedOutlet = null;
 
-          // Advance when all pairs are connected
+          // advance when all pairs are connected
           if (connections.length === level) {
             level++;
             connections = [];
             generateOutlets();
           }
+
         } else {
+          // cancel the connection if the outlets don't match
           selectedOutlet = null;
         }
       }
@@ -152,4 +179,7 @@ function mousePressed() {
       return;
     }
   }
+
+  // cancel the connection when clicking empty space
+  selectedOutlet = null;
 }

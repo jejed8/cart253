@@ -1,18 +1,18 @@
-# Fix the wiring
+# Fix the wiring II
 
 Jeremy Duverseau
 
-[View this project online](https://jejed8.github.io/cart253/prototypes/functions/fix-wiring/)
+[View this project online](https://jejed8.github.io/cart253/prototypes/arrays/fix-wiring-2/)
 
 ## Description
 
-In this prototype you need to fix the wires after, someone accidentally cut them all of.
-Click on a square on the left then click on the matching one on the right!
+A color-matching game where the player connects color matching outlets on opposing sides
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - Thank you to my friend gab for helping me with som of the logic behind this
+> - Based on my previous prototype "fix the wiring"
+> - Thank you to my friend gab for helping me with some of the logic behind this
 
 ## License
 
