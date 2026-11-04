@@ -98,3 +98,14 @@ This page is ment to showcase different prototypes made for the Creative Computa
 [View online](https://jejed8.github.io/cart253/prototypes/functions/fix-wiring/) | [View code](https://jejed8.github.io/cart253/prototypes/functions/fix-wiring/js/script.js)
 
 <img src="https://github.com/jejed8/cart253/blob/main/prototypes/functions/fix-wiring/assets/images/fix-wiring.png?raw=true" height="300" alt="Fix the wiring" >
+
+
+## Arrays Prototypes
+
+### [Link to journal entry](../journal.md#november-3-2026)
+
+## [Flower Of love](https://github.com/jejed8/cart253/tree/main/prototypes/arrays/flowerOfLove)
+
+> Let the fate of your love for someone be determined by a flower.
+
+[View online](https://jejed8.github.io/cart253/prototypes/arrays/flowerOfLove/) | [View code](https://jejed8.github.io/cart253/prototypes/arrays/flowerOfLove/js/script.js)
