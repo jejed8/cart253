@@ -118,7 +118,7 @@ This page is ment to showcase different prototypes made for the Creative Computa
 
 > Animated scene of raindrops falling.
 
-[View online](https://jejed8.github.io/cart253/prototypes/arrays/rainDay/) | [View code](https://jejed8.github.io/cart253/prototypes/arrays/rainyDay/js/script.js)
+[View online](https://jejed8.github.io/cart253/prototypes/arrays/rainyDay/) | [View code](https://jejed8.github.io/cart253/prototypes/arrays/rainyDay/js/script.js)
 
 <img src="https://github.com/jejed8/cart253/blob/main/prototypes/arrays/assets/images/rainyDay.png?raw=true" height="300" alt="Rainy Day" >
 
