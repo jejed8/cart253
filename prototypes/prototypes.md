@@ -109,3 +109,10 @@ This page is ment to showcase different prototypes made for the Creative Computa
 > Let the fate of your love for someone be determined by a flower.
 
 [View online](https://jejed8.github.io/cart253/prototypes/arrays/flowerOfLove/) | [View code](https://jejed8.github.io/cart253/prototypes/arrays/flowerOfLove/js/script.js)
+
+
+## [Rainy Day](https://github.com/jejed8/cart253/tree/main/prototypes/arrays/rainyDay)
+
+> Animated scene of raindrops falling.
+
+[View online](https://jejed8.github.io/cart253/prototypes/arrays/rainDay/) | [View code](https://jejed8.github.io/cart253/prototypes/arrays/rainyDay/js/script.js)
