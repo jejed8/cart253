@@ -116,9 +116,11 @@ function generateOutlets() {
   let leftOutlets = outlets.filter(outlet => outlet.side === "left");
   let rightOutlets = outlets.filter(outlet => outlet.side === "right");
 
+  // Randomize the order of the outlets on each side independently
   shuffle(leftOutlets, true);
   shuffle(rightOutlets, true);
 
+  // combine the shuffled left and right outlets into one array
   outlets = [...leftOutlets, ...rightOutlets];
 }
 
