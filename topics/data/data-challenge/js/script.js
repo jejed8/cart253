@@ -1,8 +1,8 @@
 /**
  * Terrible New Car
- * Pippin Barr
+ * Jeremy Duverseau, Mariam-Choukri Mahdi
  * 
- * A program to generate new car model names using dinosaurs.
+ * A program to generate new car model names using dinosaurs and emojis.
  * 
  * Uses:
  * Darius Kazemi's corpora repository
@@ -13,24 +13,33 @@
 
 let carData = undefined;
 let dinosaurData = undefined;
+let emojiData = undefined;
 let langData = undefined;
 let lang = "fr";
+
+//let car = undefined;
 
 // Starts with the instruction
 let carName = "Click to generate a car name.";
 
-/**
- * Load the car and dinosaur data
- */
-function preload() {
+// Load the car and dinosaur data
+async function preload() {
+    carData = await loadJSON("assets/data/cars.json");
+    dinosaurData = await loadJSON("assets/data/dinosaurs.json");
+    emojiData = await loadJSON("assets/data/emojis.json");
 
+    console.log("Car data:", carData);
+    console.log("Dinosaur data:", dinosaurData);
 }
+
 
 /**
  * Create the canvas
 */
-function setup() {
+async function setup() {
     createCanvas(600, 400);
+
+    await preload();
 }
 
 /**
@@ -51,5 +60,15 @@ function draw() {
  * Generate a new car name
  */
 function mousePressed() {
+
+    let car = random(carData.cars);
+
+    let dinosaur = random(dinosaurData.dinosaurs);
+
+    let emoji = random(emojiData.emojis);
+
+    carName = car + dinosaur + emoji;
+    
+
 
 }
